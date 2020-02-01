@@ -1,0 +1,23 @@
+{
+  "name": "wp-schema",
+  "description": "WordPress schema plugin developed by WordPress .",
+  "version": "0.7.0",
+  "homepage": "https://asburymediagroup.com/",
+  "author": {
+    "name": "WP Schema ",
+    "url": "https://asburymediagroup.com/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
