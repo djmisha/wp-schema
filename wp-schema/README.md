@@ -1,6 +1,6 @@
-#RM Schema
+#WordPress Schema
 
-Requires ACF Pro
+Requires Advanced Custom Fields Pro
 
 ## Features:
 
