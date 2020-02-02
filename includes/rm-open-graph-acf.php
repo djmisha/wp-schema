@@ -23,7 +23,7 @@ class RM_Open_Graph_ACF {
 		// Define our groups on construct
 		self::$groups[]	= array(
 			'key'			=> 'rm_open_graph_data',
-			'title'			=> 'Rosemont Social Media Info',
+			'title'			=> 'Social Media Info',
 			'menu_order'	=> -1
 		);
 

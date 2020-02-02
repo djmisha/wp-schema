@@ -91,16 +91,16 @@ class wp_schema_ACF {
 		if ( function_exists('acf_add_options_page') ) {
 
 			acf_add_options_page( array(
-				'page_title' 	=> 'Rosemont Schema Options',
-				'menu_title'	=> 'RM Schema',
+				'page_title' 	=> 'WP Schema Options',
+				'menu_title'	=> 'WP Schema',
 				'menu_slug' 	=> self::$plugin_slug,
 				'capability'	=> 'edit_posts',
 				'redirect'		=> false
 			) );
 
 			acf_add_options_sub_page( array(
-						'page_title' => 'RM Schema Settings',
-						'menu_title'=> 'RM Schema Settings',
+						'page_title' => 'WP Schema Settings',
+						'menu_title'=> 'WP Schema Settings',
 						'menu_slug' => 'rm_review_schema_settings',
 						'parent_slug' => self::$plugin_slug,
 						'capability'=> 'edit_posts',

@@ -414,7 +414,7 @@ class wp_schema_JSON_LD {
 
 		// Use excerpt as description but if blank, overwrite with SEO plugins
 		// I really doubt more than one SEO plugin is installed, they shouldn't be anyway
-		// But prioritizing All In One SEO plugin since that is (at the time of writing) Rosemont's go to SEO plugin
+		// But prioritizing All In One SEO plugin since that is (at the time of writing) is the go to SEO plugin
 		$post_description	= get_the_excerpt( $post_ID );
 
 		if ( '' !== $aioseo_desc = get_post_meta( $post_ID, '_aioseop_description', true ) ) {
