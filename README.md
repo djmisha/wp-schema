@@ -14,7 +14,7 @@ Requires Advanced Custom Fields Pro
 ## Instructions:
 
 * Upload and activate plugin
-* New admin page "RM Schema" will appear on sidebar
+* New admin page "WP Schema" will appear on sidebar
 * Fill out as much data as possible
 
 ## Notes:
